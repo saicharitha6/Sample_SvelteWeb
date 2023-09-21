@@ -1,0 +1,31 @@
+/* Write your global styles here, in PostCSS syntax */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* font-family: "Poppins" !important; */
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bg {
+  @apply bg-[#161A1D]/30
+}
+
+.input {
+  @apply bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 duration-300 block w-full p-2.5
+}
+
+.button {
+  @apply bg-[#4B39EF] hover:bg-[#3124A1] duration-300 px-6 py-3 text-white font-semibold rounded-md
+}
+.button-gray {
+  @apply bg-gray-100 hover:bg-gray-200 duration-300 px-6 py-3 text-gray-600 font-semibold rounded-md
+}

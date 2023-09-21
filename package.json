@@ -1,0 +1,41 @@
+{
+  "name": "kazam-app-builder",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.1.0",
+    "@tsconfig/svelte": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^3.52.0",
+    "svelte-awesome-color-picker": "^2.2.1",
+    "svelte-check": "^2.9.2",
+    "svelte-color-picker": "^1.0.7",
+    "svelte-preprocess": "^4.10.7",
+    "tailwindcss": "^3.2.4",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.0.96",
+    "axios": "^1.2.2",
+    "base64-img": "^1.0.4",
+    "compressorjs": "^1.1.1",
+    "gsap": "^3.11.3",
+    "js-base64": "^3.7.3",
+    "mdi-svelte": "^1.1.2",
+    "node-base64-image": "^2.0.4",
+    "svelte-routing": "^1.6.0",
+    "svelte-steps": "^2.3.5",
+    "svelte-transitions": "^1.2.0"
+  }
+}
